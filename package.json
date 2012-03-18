@@ -1,0 +1,23 @@
+{
+    "author": "Louis Rawlins <email@louisrawlins.com> (http://louisrawlins.com/)"
+  , "name": "blog"
+  , "description": "Personal weblog"
+  , "version": "0.0.1"
+  , "homepage": "http://blog.louisrawlins.com/"
+  , "private": true
+  , "scripts": { "start" : "node server/server.js" }
+  , "repository": {
+      "type": "git"
+    , "url": "XXX"
+  }
+  , "engines": {
+    "node": ">=0.4.0"
+  }
+  , "dependencies": {
+      "stack": ">=0.0.3"
+    , "creationix": ">=0.1.2"
+    , "wheat": ">=0.2.0"
+    , "cluster": ">=0.6.4"
+  }
+  , "devDependencies": {}
+}

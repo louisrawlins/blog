@@ -1,0 +1,44 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %title #{(title ? title + " - " : "")}Louis Rawlins, Blog
+    %meta(name="description" content="Personal blog for Louis Rawlins")
+    %meta(name="viewport" content="width=device-width")
+    %link(href="/style.css" rel="stylesheet")
+    %link(href="/print.css" rel="stylesheet" media="print")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+  %body
+    #container
+      %header
+        %h1
+          %a{href: "http://louisrawlins.com/"}
+            %img.logo{src: "/logotype-500_110.png", alt: "Louis Rawlins", title: "Louis Rawlins"}
+        %nav
+          %ul
+            %li.active
+              %a{href: "/"} Blog
+            %li
+              %a{href: "http://louisrawlins.com/portfolio"} Portfolio
+            %li
+              %a{href: "http://louisrawlins.com/resume"} Resume
+            %li
+              %a{href: "http://louisrawlins.com/contact"} Contact
+        #mainContent
+          = content
+      
+      %footer
+        %span.copyright
+          Copyright 2011, Louis Rawlins.
+          -# colophon: %p Wheat running on node #{process.version}
+    :script
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9425679-1']);
+      _gaq.push(['_setDomainName', 'louisrawlins.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

@@ -1,0 +1,96 @@
+#main
+  %article
+    %h1
+      %a{href: "/" + article.name}&= article.title
+    .date{title: article.date}&= formatDate(article.date, "%a %d %b %Y")
+    :if article.version
+      %a.sha-version{ href: "/#{article.version}/#{article.name}" } Static Version
+  
+    = markdownEncode(article.markdown)
+
+%aside#sidebar
+  .aside.description
+    = markdownEncode(description)
+  .bubble
+    %h4
+      Read the latest posts
+    %ul
+
+  .bubble
+    %h4
+      Revisions to this post
+    %ul
+
+
+  
+  .aside
+    :if article.date
+      %dl{title: article.date}
+        %dt
+          %h4
+            Date released
+        %dd
+          &= formatDate(article.date, "%a %d %b %Y")
+    :if article.lastUpdated
+      %dl{title: article.lastUpdated}
+        %dt
+          %h4
+            Last updated
+        %dd
+          &= formatDate(article.lastUpdated, "%a %d %b %Y")
+
+    :if article.node
+      %dl
+        %dt
+          %h4
+            Node versions
+        %dd
+          %a{ href: "http://github.com/joyent/node/tree/" + article.node }
+            node #{article.node}
+
+    :if article.dependencies
+      %dl
+        %dt
+          %h4
+            Dependency versions
+        %dd
+          %ul
+            :each dependency in article.dependencies
+              %li
+                %a{ href: "http://github.com/creationix/haml-js/tree/8ea2df3a90ff488ed253d5872e0f4a387f393e5d" }
+                  haml-js v0.2.2
+
+    :if article.uniqueSnippets
+      %dl
+        %dt
+          %h4
+            Code samples
+        %dd
+          %ul
+            :each base, snippet in article.uniqueSnippets
+              %li
+                %a{ href: snippet.filename}
+                  &= base
+
+    %dl
+      %dt
+        %h4
+          Revisions to this post
+      %dd
+        %ul
+          :each version, stat in article.log
+            %li{title: stat.message}
+              %a{ href: "/#{version}/#{article.name}" }
+                &= new Date(stat.date).toUTCString()
+
+  :if article.related && article.related.length > 0
+    .bubble
+      %h4
+        Other posts
+      %ul
+        :each related in article.related
+          %li
+            %a{href: "/" + related.name}&=related.title
+            :if related.node
+              %span.versiontag&= related.node
+
