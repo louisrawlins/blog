@@ -11,18 +11,6 @@
 %aside#sidebar
   .aside.description
     = markdownEncode(description)
-  .bubble
-    %h4
-      Read the latest posts
-    %ul
-
-  .bubble
-    %h4
-      Revisions to this post
-    %ul
-
-
-  
   .aside
     :if article.date
       %dl{title: article.date}

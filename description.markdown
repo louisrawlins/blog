@@ -1,14 +1,12 @@
-### About me
+### Comment on posts
 
-I am a hybrid individual. Artist, teacher, designer, engineer. I work with media. There may be a specific discipline to name my work in the future. In the meantime, I will explore and share through these stories.
+I encourage dialogue about what I've written. Please contact me to start a conversation. I'm happy to include your comments on any post with your permission.
 
-### About these posts
+### Learn more
 
-The format of this site, the posts and the software that publishes everything will be updated frequently. It's an experiment.
+This blog is also a teaching tool. You can find [this blog](https://github.com/louisrawlins/blog) on [GitHub,](https://github.com/) if you'd like to see how it was created.
 
-I encourage dialogue, and if you'd like to comment on something I've written, please reach out to me and tell me what you think. My contact information is below and I am happy to include your comments online with your permission.
-
-This blog uses [Wheat](https://github.com/creationix/wheat), a barebones publishing system for [Node.js](http://nodejs.org/).
+I use [Wheat](https://github.com/creationix/wheat), a barebones publishing system for [Node.js](http://nodejs.org/).
 
 ### Contact me
 
