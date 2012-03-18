@@ -8,7 +8,7 @@ This is a personal blog to contain more than personal reflections. It will inclu
 
 ##Create beauty.
 
-![Mono Lake](/mono-mountains.jpg "Mono Lake")
+![Mono Lake](hello-and-welcome//mono-mountains.jpg "Mono Lake")
 
 For the past few years, I've struggled to establish direction in my life. Physically, emotionally and professionally, I've taken the "normal" path of an artist and bounced from idea to idea as they interest me. I still do. But now I have focus on what I need to accomplish. Right now, that means being a media educator, a designer and an engineer. Spending time studying the arts, studying computers and technology, all while looking for the inter-connections with my life, has not been a straightforward thing. I've learned that with this struggle, I enjoy what I discover. It makes me happy to share this with others because often it helps people to see themselves, and in turn that helps me understand myself and my place in the world. Perhaps, the more we learn to understand and care about ourselves, the easier it will be to care for others.
 
@@ -18,7 +18,7 @@ At thirty-five years old, I am at a unique place in life. I am neither young, no
 
 ##Keep experimenting.
 
-![Red desert](/red-desert.jpg "Red desert")
+![Red desert](hello-and-welcome/red-desert.jpg "Red desert")
 
 You'll find plenty of experiments, on this blog. With media and teaching. With advertising and publishing. Storytelling. Working-styles.
 
@@ -40,4 +40,4 @@ Good. Remember that feeling. Maintain that connection, and let's talk.
 
 Thanks for reading. Enjoy the ride.
 
-__Peace,  Louis__
+__Peace,&nbsp;&nbsp;Louis__
