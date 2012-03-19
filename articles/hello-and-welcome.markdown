@@ -2,7 +2,7 @@ Title: Hello and welcome
 Author: Louis Rawlins
 Date: March 18, 2012 10:14:06 AM PDT
 Categories: Life (TO-DO)
-Number: 000
+Number: 001
 
 This is a personal blog to contain more than personal reflections. It will include thoughts on health and nutrition, media and advertising, the state of publishing and the arts. Primarily, I am looking at wellness in the most rounded sense of the term: for person, for community and the world. Join me<!--- PREVIEW ABOVE THIS LINE --> in this journey.
 
