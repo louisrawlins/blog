@@ -44,6 +44,7 @@ a { color: #aaa; text-decoration: none; }
 }
 
 body {
+  background: #eee;
   width: 650px;
   margin: 50px;
   color: #333;
