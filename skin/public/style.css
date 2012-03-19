@@ -46,51 +46,47 @@ a { color: #aaa; text-decoration: none; }
 /* ## OLD ############################################################################# */
 
 @font-face {
-    font-family: 'Vollkorn Italic';
-    src: url('fonts/vollkorn-italic-webfont.eot');
-    src: url('fonts/vollkorn-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/vollkorn-italic-webfont.woff') format('woff'),
-         url('fonts/vollkorn-italic-webfont.ttf') format('truetype'),
-         url('fonts/vollkorn-italic-webfont.svg#VollkornItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Vollkorn Regular';
+  src: url('fonts/vollkorn-regular-webfont.eot');
+  src: url('fonts/vollkorn-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/vollkorn-regular-webfont.woff') format('woff'),
+       url('fonts/vollkorn-regular-webfont.ttf') format('truetype'),
+       url('fonts/vollkorn-regular-webfont.svg#VollkornRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Vollkorn Bold Italic';
-    src: url('fonts/vollkorn-bolditalic-webfont.eot');
-    src: url('fonts/vollkorn-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/vollkorn-bolditalic-webfont.woff') format('woff'),
-         url('fonts/vollkorn-bolditalic-webfont.ttf') format('truetype'),
-         url('fonts/vollkorn-bolditalic-webfont.svg#VollkornBoldItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Vollkorn Italic';
+  src: url('fonts/vollkorn-italic-webfont.eot');
+  src: url('fonts/vollkorn-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/vollkorn-italic-webfont.woff') format('woff'),
+       url('fonts/vollkorn-italic-webfont.ttf') format('truetype'),
+       url('fonts/vollkorn-italic-webfont.svg#VollkornItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Vollkorn Bold';
-    src: url('fonts/vollkorn-bold-webfont.eot');
-    src: url('fonts/vollkorn-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/vollkorn-bold-webfont.woff') format('woff'),
-         url('fonts/vollkorn-bold-webfont.ttf') format('truetype'),
-         url('fonts/vollkorn-bold-webfont.svg#VollkornBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Vollkorn Bold';
+  src: url('fonts/vollkorn-bold-webfont.eot');
+  src: url('fonts/vollkorn-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/vollkorn-bold-webfont.woff') format('woff'),
+       url('fonts/vollkorn-bold-webfont.ttf') format('truetype'),
+       url('fonts/vollkorn-bold-webfont.svg#VollkornBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Vollkorn Regular';
-    src: url('fonts/vollkorn-regular-webfont.eot');
-    src: url('fonts/vollkorn-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/vollkorn-regular-webfont.woff') format('woff'),
-         url('fonts/vollkorn-regular-webfont.ttf') format('truetype'),
-         url('fonts/vollkorn-regular-webfont.svg#VollkornRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Vollkorn Bold Italic';
+  src: url('fonts/vollkorn-bolditalic-webfont.eot');
+  src: url('fonts/vollkorn-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/vollkorn-bolditalic-webfont.woff') format('woff'),
+       url('fonts/vollkorn-bolditalic-webfont.ttf') format('truetype'),
+       url('fonts/vollkorn-bolditalic-webfont.svg#VollkornBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html, body {
@@ -98,22 +94,43 @@ html, body {
 }
 
 body {
-  width: 650px;
-  margin: 50px;
+  width: 320px;
+  margin: 0 1px;
   color: #333;
   font-family: "Vollkorn Regular";
   line-height: 1.625em;
 }
 
+#container {
+  position: relative;
+}
+
+header {
+  /* Brand: White gray */
+  background: #F2F2F2;
+}
+
+article {
+  /* Brand: White gray */
+  background: #F2F2F2;
+}
+
+header h1 {
+  margin-top: 50px;
+  padding: 20px;
+}
+
 /* Move these colors out into a stylus / style guide. Gonna have to do from scratch on blog until modified to use sass-like system. */
 header h1 a {
-  font-size: 54pt;
-  line-height: 44pt;
+  font-size: 54px;
+  line-height: 44px;
   font-family: "Vollkorn Bold";
+  /* Brand: Light brown */
   color: #AD886C;
 }
 
 header h1 a em {
+  /* Brand: Blue */
   color: #5BB6E3;
 }
             
@@ -176,9 +193,47 @@ header {
 
 nav {
   display: block;
-  margin: 0.5em 0 0.75em 65px;
-  padding-bottom: 9px;
+  position: absolute;
+  top: 10px;
+  width: 320px;
+  margin: 0 -1px;
+  padding: 10px 0;
   overflow: hidden;
+  /* Brand: Light blue */
+  background: #D5E7F0;
+  /* Brand: Light gray */
+  border: solid 1px #E6E6E6;
+  /* Brand: Thin shadow */
+  -moz-box-shadow:    0 1px 1px 0 #ccc;
+  -webkit-box-shadow: 0 1px 1px 0 #ccc;
+  box-shadow:         0 1px 1px 0 #ccc;
+}
+
+article {
+  width: 318px;
+  /* iPhone scaling correction */
+  margin: -1px 0;
+}
+
+
+span.ad {
+  display: block;
+  width: 280px;
+  margin: 0 -22px;
+  padding: 10px 20px;
+  overflow: hidden;
+  /* Brand: Light blue */
+  background: #D5E7F0;
+  /* Brand: Light gray */
+  border: solid 1px #E6E6E6;
+  /* Brand: Thin shadow */
+  -moz-box-shadow:    0 1px 1px 0 #ccc;
+  -webkit-box-shadow: 0 1px 1px 0 #ccc;
+  box-shadow:         0 1px 1px 0 #ccc;
+}
+
+nav ul {
+  margin-left: 20px;
 }
 
 nav ul li,
@@ -188,11 +243,18 @@ nav ul li dl dd {
 }
 
 nav ul li {
-  margin-right: 1em;
+  margin-right: 1.7em;
   color: #555;
-  font-family: "Titillium Maps Regular";
-  font-size: 1.5em;
-  letter-spacing: 0.01em;
+  font-family: "Vollkorn Bold";
+  -webkit-text-size-adjust: none;
+  
+  /* Some kinda iphone override -- please correct this */
+  font-size: 14px !important;
+  line-height: 1em;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
 }
 
 nav ul li dl dd,
@@ -227,7 +289,8 @@ nav ul li dl dd a {
 }
 
 nav ul li a {
-  color: #4d4f51;
+  /* Brand: Light brown */
+  color: #AD886C;
 }
 
 nav ul li a:hover {
@@ -239,7 +302,10 @@ nav ul li.active,
 nav ul li.active a,
 nav ul dt.active,
 nav ul dt.active a {
-  color: #ffb01f;
+  /* Brand: Light brown */
+  color: #AD886C;
+  /* Brand: Light blue */
+  color: #5BB6E3;
 }
 
 
@@ -264,7 +330,11 @@ article header,
 article p,
 article ul,
 article dl {
-  margin: 0 0 1em 0;      
+
+}
+
+article {
+
 }
 
 article p {
@@ -274,24 +344,27 @@ article p {
 }
 
 article h1 {
-  font-family: 'Titillium Maps Regular';
+  font-family: 'Vollkorn Bold';
+  /*Brand: Body dark gray */
+  color: #333;
 }
 
 article h1,
 article h2,
 article h3 {
-  padding: 10px 0;
+  padding: 0 20px;
   font-size: 24px;
   line-height: 26px;
 }
 article h4 {
-  padding: 10px 0;
+  padding: 0 20px;
   font-size: 14px;
   line-height: 18px;
 }
 
 article h1 a {
-  color: #bbb;
+  /*Brand: Body dark gray */
+  color: #333;
 }
 
 article strong {
@@ -369,7 +442,7 @@ nav ul dd a.selected {
     position: relative;
     top: auto;
     left: auto;
-    margin: 1em 0 0 66px;
+
   }
 
 
@@ -428,7 +501,7 @@ dl a:hover {
   z-index: 50;
 }
 #sidebar {
-  float: left;
+
   width: 30%;
   position: relative;
   z-index: 50;
@@ -469,20 +542,20 @@ dl a:hover {
 }
 article {
   position: relative;
-  border-top: 1px solid #eee;
-  border-bottom: 3px solid #eee;
-  border-left: 1px solid #f9f9f9;
-  border-right: 1px solid #f9f9f9;
-  background-color: #fefefc;
+
+
+  font-size: 17px;
+  line-height: 20px;
+
+
   margin-bottom: 20px;
-  overflow: hidden;
   padding: 0 1px;
 }
 
 
-article {
-  margin: 1em 0 0 66px;
-  font-size: 1.25em;
+article h1 {
+  font-size: 28px;
+  line-height: 24px;
 }
 
 #main {
@@ -490,8 +563,8 @@ article {
 }
 
 aside#sidebar {
-   margin-top: 3px;
-  float: left;
+
+
 }
 
 
@@ -503,21 +576,23 @@ article .sha-version {
   padding: 0px 6px;
   font-size: 11px;
   color: #aaa;
-  background-color: #fff;
-  -webkit-border-radius: 0px 0px 0px 5px;
-  -moz-border-radius: 0px 0px 0px 5px;
-  border-radius: 0px 0px 0px 5px;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+
 }
 
 article .date {
-  color: #ccc;
+  padding: 0 20px;
+  font-family: 'Vollkorn Italic';
+  letter-spacing: 1px;
+  /* Brand: Body medium dark */
+  color: #666;
 }
 
 article p,
 article ul,
 article ol {
+  /* Body copy looks visual unbalanced without a tweak. */
+  padding: 0 22px 0 20px;
+  margin: 12.5px 0 0 0;
   text-align: justify;
 }
 article img {
@@ -691,136 +766,16 @@ pre code {
 .pln {
   color: #f8f7f2;
 }
+
 @media screen {
-  .str {
-    color: #e6d77a;
-  }
-  .kwd {
-    color: #e85274;
-  }
-  .com {
-    color: #485457;
-  }
-  .typ {
-    color: #f8f7f2;
-  }
-  .lit {
-    color: #b5d93a;
-  }
-  .pun,
-  .opn,
-  .clo {
-    color: #f8f7f2;
-  }
-  .tag {
-    color: #aaa;
-  }
-  .atn {
-    color: #e85274;
-  }
-  .atv {
-    color: #b5d83a;
-  }
-  .dec,
-  .var {
-    color: #f8f7f2;
-  }
-  .fun {
-    color: #e85379;
-  }
-}
-@media print, projection {
-  pre code {
-    background-color: none;
-    display: block;
-    padding: 10px;
-    overflow: visible;
-  }
-  .pln {
-    color: #000;
-  }
-  .str {
-    color: #060;
-  }
-  .kwd {
-    color: #006;
-    font-weight: bold;
-  }
-  .com {
-    color: #600;
-    font-style: italic;
-  }
-  .typ {
-    color: #404;
-    font-weight: bold;
-  }
-  .lit {
-    color: #044;
-  }
-  .pun,
-  .opn,
-  .clo {
-    color: #440;
-  }
-  .tag {
-    color: #006;
-    font-weight: bold;
-  }
-  .atn {
-    color: #404;
-  }
-  .atv {
-    color: #060;
-  }
-}
-pre.prettyprint {
-  padding: 2px;
-  border: 1px solid #888;
-}
-ol.linenums {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L5,
-li.L6,
-li.L7,
-li.L8 {
-  list-style-type: none;
-}
-li.L1,
-li.L3,
-li.L5,
-li.L7,
-li.L9 {
-  background: #eee;
-}
-@media screen and (max-width: 800px) {
-  #main {
-    width: 100%;
-    float: none;
-  }
-  aside#sidebar,
-  #sidebar {
-    float: none;
-    max-width: none;
-    width: auto;
-  }
-  #header h1 {
-    letter-spacing: -1px;
-  }
-  #header .tagline {
-    font-size: 10px;
-  }
-  
-  article,
-  aside#sidebar {
-  margin: 1em 0 0 66px;
-  margin-right: 66px;  
+
 }
 
-  
+@media print, projection {
+
+}
+
+
+@media screen and (max-width: 800px) {
+
 }
