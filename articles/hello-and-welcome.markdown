@@ -1,7 +1,7 @@
 Title: Hello and welcome
 Author: Louis Rawlins
 Date: March 18, 2012 10:14:06 AM PDT
-Categories: TO-DO
+Categories: Life (TO-DO)
 Number: 000
 
 This is a personal blog to contain more than personal reflections. It will include thoughts on health and nutrition, media and advertising, the state of publishing and the arts. Primarily, I am looking at wellness in the most rounded sense of the term: for person, for community and the world. Join me<!--- PREVIEW ABOVE THIS LINE --> in this journey.
@@ -20,7 +20,7 @@ At thirty-five years old, I am at a unique place in life. I am neither young, no
 
 ![Red desert](hello-and-welcome/red-desert.jpg "Red desert")
 
-You'll find plenty of experiments, on this blog. With media and teaching. With advertising and publishing. Storytelling. Working-styles.
+You'll find plenty of experiments on this blog. With media and teaching. With advertising and publishing. Storytelling. Working-styles.
 
 One of the biggest lessons I've learned since completing school is that the more rigidly I define my schedule, the less likely I am to complete what needs to be done with any amount of creativity. I am actively seeking knowledge on the impact of play in my everyday life and in education. I find that it fits anywhere from counseling and business to immersing myself in new situations like a dance in the woods, movement at work, or singing for fun. There is always a way to express and be heard.
 
@@ -28,7 +28,7 @@ One of the biggest lessons I've learned since completing school is that the more
 
 This blog will also serve as a marketing vehicle for my work. I want to be clear about this because communication modes have changed and will continue to change. What direction communications will take and if we, as a globally connected society, will have anything as final and solid as the the printed page (five hundred years in the west is not a bad run) still remains to be seen.
 
-With contemporary marketing, it's not always clear what is simply a fun activity and what is an experience created for monetary return. You will find that I have no definite stance on this subject. As a result, I will point out where, when and how I am advertising to you. Together, I hope we can discover what works and what feels not only appropriate, but desired. Advertising is only one mode of communication, and as such, I feel the expectations should be the same as with any conversation. We listen and speak with those to whom we feel connected. We interact with those whom we have a vested interest.
+With contemporary marketing, it's not always apparent what is simply a fun activity and what is an experience created for monetary return. You will find that I have no definite stance on this subject. As a result, I will point out where, when and how I am advertising to you. Together, I hope we can discover what works and what feels not only appropriate, but desired. Advertising is only one mode of communication, and as such, I feel the expectations should be the same as with any conversation. We listen and speak with those to whom we feel connected. We interact with those whom we have a vested interest.
 
 On this note, I will also be experimenting with that way that I interact with my readers. I encourage direct participation in this blog through email, Twitter, or Facebook — whatever works. Please reach out and contact me. I hope these conversations will serve as comments to my posts that I will add with your permission.
 
